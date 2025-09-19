@@ -40,14 +40,14 @@
 - Travel Itineraries: Detailed daily travel plans including attractions, timings, and ticket pricing.
 
  
-<br><h2 id="layout">🎨 Layout</h2>
+<!-- <br><h2 id="layout">🎨 Layout</h2>
 
 <p>
 Home Page:
 <img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/1.1.png" alt="">
 
 Google OAuth Sign in:
-  <img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/2.png" alt="">
+<img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/2.png" alt="">
   
 Create Trip Page:
 <img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/4.4.png" alt="">
@@ -61,7 +61,7 @@ My Trips Page:
 Responsive view on mobile: <br>
 <img src="https://github.com/barika001/ai-trip-planner/blob/main/public/asset/8.jpg" alt="" width="30%" align="center">
 </p>
- 
+  -->
 
 <h2 id="pre">🗁 Prerequisites</h2>
 
