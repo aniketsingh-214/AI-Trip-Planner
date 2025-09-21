@@ -1,18 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import HotelCardItem from './HotelCardItem'
+import React from "react";
+import { Link } from "react-router-dom";
+import HotelCardItem from "./HotelCardItem";
 
 function Hotels({ trip }) {
-    return (
-        <div>
-            <h2 className='font-bold text-xl mt-5'>Hotel Recommendation</h2>
-            <div className='grid grid-cols-2 md:grid-cols-3 xl-grid-cols-4 gap-5'>
-                {trip?.tripData?.hotel_options?.map((hotel, index) => (
-                    <HotelCardItem hotel={hotel} />
-                ))}
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <h2 className="font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-400 bg-clip-text text-transparent mt-5 mb-8 flex items-center gap-3">
+        Hotel Recommendation
+      </h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 xl-grid-cols-4 gap-5">
+        {trip?.tripData?.hotel_options?.map((hotel, index) => (
+          <HotelCardItem hotel={hotel} />
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default Hotels
+export default Hotels;
