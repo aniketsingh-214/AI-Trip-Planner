@@ -131,12 +131,6 @@ REACT_APP_GOOGLE_PLACES_KEY=your_google_places_key
 npm start
 ```
 
-### 5️⃣ Open the app
-
-Go to [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
 ## <a id="future">🔮 Future Improvements</a>
 
 * Add **social sharing** for trips.
