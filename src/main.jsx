@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import CreateTrip from "./create-trip/index.jsx";
+import CreateTrip from "./pages/create-trip/index.jsx";
 import Header from "./components/custom/Header.jsx";
 import { Toaster } from "./components/ui/sonner.jsx";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import Viewtrip from "./view-trip/[tripId]/index.jsx";
-import MyTrips from "./my-trips/index.jsx";
+import Viewtrip from "./pages/view-trip/[tripId]/index.jsx";
+import MyTrips from "./pages/my-trips/index.jsx";
 
 const router = createBrowserRouter([
   {
